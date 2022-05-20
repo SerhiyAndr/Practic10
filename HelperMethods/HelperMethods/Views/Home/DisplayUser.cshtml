@@ -1,0 +1,28 @@
+﻿@model HelperMethods.Models.User
+@{
+    ViewBag.Title = "DisplayUser";
+}
+<h2>Данные пользователя</h2>
+<div class="editor-field">
+    0
+    <input id="UserId" name="UserId" type="hidden" value="0" />
+</div>
+<div class="editor-label">
+    <label for="FirstName">FirstName</label>
+</div>
+<div class="editor-field">
+    <input class="text-box single-line" id="FirstName"
+           name="FirstName" type="text" value="" />
+</div>
+<div class="item">
+    @Html.Label("Фамилия")
+    @Html.DisplayFor(m => m.LastName)
+</div>
+<div class="item">
+    @Html.Label("Роль")
+    @Html.DisplayFor(m => m.Role)
+</div>
+<div class="item">
+    @Html.Label("Дата рождения")
+    @Html.DisplayFor(m => m.BirthDate)
+</div>

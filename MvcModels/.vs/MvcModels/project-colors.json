@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc80504f-28b0-4463-acf1-40f25f21321c": {
+      "ProjectGuid": "fc80504f-28b0-4463-acf1-40f25f21321c",
+      "DisplayName": "MvcModels",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
